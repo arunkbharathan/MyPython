@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<block>
+  <name>FM_stereo_mono_switch</name>
+  <key>FM_Switch_FM_stereo_mono_switch</key>
+  <category>FM_Switch</category>
+  <import>import FM_Switch</import>
+  <make>FM_Switch.FM_stereo_mono_switch($Threshold)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Threshold</name>
+    <key>Threshold</key>
+  <value>75</value>
+    <type>float</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>snr</name>
+    <type>float</type>
+  </sink>
+  <sink>
+    <name>mono</name>
+    <type>float</type>
+  </sink>
+<sink>
+    <name>left</name>
+   <type>float</type>
+</sink>
+<sink>
+   <name>right</name> 
+   <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>left</name>
+    <type>float</type>
+</source>
+<source>
+    <name>right</name>
+    <type>float</type>
+  </source>
+</block>

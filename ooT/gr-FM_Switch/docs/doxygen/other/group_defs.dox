@@ -1,0 +1,7 @@
+/*!
+ * \defgroup block GNU Radio FM_SWITCH C++ Signal Processing Blocks
+ * \brief All C++ blocks that can be used from the FM_SWITCH GNU Radio
+ *        module are listed here or in the subcategories below.
+ *
+ */
+

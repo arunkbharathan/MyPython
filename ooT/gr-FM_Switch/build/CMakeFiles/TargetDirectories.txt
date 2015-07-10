@@ -1,0 +1,4 @@
+/home/arun/Documents/python/ooT/gr-FM_Switch/build/docs/doxygen/CMakeFiles/doxygen_target.dir
+/home/arun/Documents/python/ooT/gr-FM_Switch/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/arun/Documents/python/ooT/gr-FM_Switch/build/python/CMakeFiles/pygen_python_a0374.dir
+/home/arun/Documents/python/ooT/gr-FM_Switch/build/CMakeFiles/uninstall.dir

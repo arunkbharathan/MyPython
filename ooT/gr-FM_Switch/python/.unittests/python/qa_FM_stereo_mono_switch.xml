@@ -1,0 +1,16 @@
+<testsuite errors="1" failures="0" name="unittest.suite.TestSuite" tests="1" time="22.254">
+  <testcase classname="__main__.qa_FM_stereo_mono_switch" name="test_001_t" time="22.2540">
+    <error type="bdb.BdbQuit">
+  File "/usr/lib/python2.7/unittest/case.py", line 331, in run
+    testMethod()
+  File "qa_FM_stereo_mono_switch.py", line 59, in test_001_t
+    self.assertFloatTuplesAlmostEqual (expected_result1, result_data1, 6)
+  File "/usr/lib/python2.7/bdb.py", line 53, in trace_dispatch
+    return self.dispatch_return(frame, arg)
+  File "/usr/lib/python2.7/bdb.py", line 91, in dispatch_return
+    if self.quitting: raise BdbQuit
+    </error>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
